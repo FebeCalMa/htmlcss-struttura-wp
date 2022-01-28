@@ -32,19 +32,20 @@ main {
     width: 25%;
 }
 
-footer {
- margin-top: 10px;
-}
-
 .big-col {
     margin-left: 2%;
     margin-right: 2%;
     width: 46%;
 }
 
+footer {
+ margin-top: 10px;
+}
+
+
 /*Inizio debug*/
 .debug .container {
-border: 2px dashed red;
+/*border: 2px dashed red;*/
 }
 
 .debug .logo {
@@ -58,7 +59,6 @@ border: 2px dashed red;
 }
 
 .debug main {
-    height: 400px;
     background-color: rgb(11, 130, 170);
 }
 
