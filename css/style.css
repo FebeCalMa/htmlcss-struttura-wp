@@ -5,11 +5,12 @@
 }
 
 .clearfix::after {
-    content:'';
+    content:"";
     clear: both;
     display: table;
 }
 
+/*inizio Layout*/
 .container {
    width: 70%;
    margin: 15px auto; 
@@ -25,9 +26,6 @@ main {
     padding-bottom: 20px;    
 }
 
-.inner-header {
-
-}
 
 .col {
     float: left;
@@ -44,23 +42,24 @@ footer {
     width: 46%;
 }
 
-
+/*Inizio debug*/
 .debug .container {
-/*border: 2px dashed red;*/
+border: 2px dashed red;
 }
 
 .debug .logo {
-    /*height: 100px;*/
-    border: 2px dashed violet;
+    height: 100px;
+    background-color: palevioletred;
 }
 
 .debug .jumbo-tron {
     height: 400px;
-    background-color: beige;
+    background-color: rgb(161, 161, 78);
 }
 
 .debug main {
-    background-color: lightblue;
+    height: 400px;
+    background-color: rgb(11, 130, 170);
 }
 
 .debug .inner-header {
